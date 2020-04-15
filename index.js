@@ -9,7 +9,7 @@ class ElementHandler {
       element.prepend("Raman's ")
     }
     if (element.getAttribute("id") == "description") {
-      element.append("I hope you like it!");
+      element.append("I changed some html to personalize it. I hope you like it!");
     }
     if (element.getAttribute('id') == "url") {
       element.setAttribute('href', 'https://ramanxg.github.io/Portfolio/');
